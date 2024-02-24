@@ -1,4 +1,8 @@
+# Car Hub
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Built by following [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) [YouTube tutorial](https://www.youtube.com/watch?v=pUNSHPyVryU)
 
 ## Getting Started
 
@@ -10,15 +14,17 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This app uses the Cars by API-Ninjas API via Rapid API. Add a .env.local file to the root directory with the following variable
+
+```txt
+RAPID_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
 ## Learn More
 
