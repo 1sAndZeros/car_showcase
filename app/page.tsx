@@ -53,7 +53,7 @@ export default async function Home({ searchParams }: HomeProps) {
         ) : (
           <div className='home__error-container'>
             <h2 className='text-black text-xl font-bold'>Oops, No Results!</h2>
-            <p>{allCars?.message}</p>
+            <p>{Array.isArray(allCars) && allCars.length > 0 ? allCars[0].message : null}</p>
           </div>
         )}
       </div>

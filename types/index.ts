@@ -32,6 +32,7 @@ export interface CarProps {
   model: string;
   transmission: string;
   year: number;
+  message?: string;
 }
 
 export interface FilterProps {
